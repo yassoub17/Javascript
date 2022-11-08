@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2022 by yassoub17 (http://jsbin.com/besewed/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<script id="jsbin-javascript">
+const name = "Bob";
+
+if (name === "Bob") {
+  console.log("Hello Bob");
+} else {
+  console.log("You're not Bob, go away!");
+}
+
+
+const password = prompt("What is the password?");
+console.log(typeof(password));
+
+if (password === "magic"){
+  console.log("Welcome!");
+} else {
+  console.log("Wrong password ");
+}
+
+const age = prompt("How old are you?");
+console.log(typeof(age));
+
+if (age < 3) {
+  console.log("Hello, Baby 🍼!");
+}
+else if(age < 18) {
+  console.log("Hi! 👋");
+}
+else if(age < 100) {
+  console.log("Greetings 🖖");
+}
+else {
+  console.log("Wow... 😲")
+}
+
+</script>
